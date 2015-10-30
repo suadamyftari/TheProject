@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+body {
+  background-color: rgba(192,192,192,0.3);
+  background-image: url("../images/Albaniabackground.jpg");
+  text-align: center;
+  font-family: sans-serif; }
+
+  .musicbody {
+
+      background-color: rgba(192,192,192,0.3);
+      background-image: url("../images/music.background.jpg");
+      text-align: center;
+      font-family: sans-serif;
+    }
+  .music{
+    -webkit-animation-name: discover;
+    -webkit-animation-duration: .9s; }
+
+
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.ul li {
+    float: left;
+    display : inline;
+}
+
+
+.ul a {
+    display: block;
+    width: 250px;
+    background-color: transparent;
+    font-weight: 32px;
+    color : black;
+  }
+    .ul a:hover{
+      color: green; }
+}
+
+
+h1 {
+  color: rgba(1, 1, 1, 1);
+  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+  background: url("") no-repeat center 100px;
+  padding: 350px 0 10px;
+  margin: 0; }
+
+.doc {
+  font-size: 14px;
+  margin: 0; }
+  .doc:before,
+  .doc:after {
+    opacity: .2;
+    padding: 6px;
+    font-style: normal;
+    position: relative;
+    content: "•"; }
+  .doc a {
+    color: rgba(0, 0, 0, 0.3); }
+    .doc a:hover {
+      color: #666; }
+
+.discover {
+  -webkit-animation-name: discover;
+  -webkit-animation-duration: .9s; }
+
+
+@-webkit-keyframes welcome {
+  from {
+    -webkit-transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+   -webkit-transform: scale(0);
+   opacity: 0;
+  }
+  82.5% {
+    -webkit-transform: scale(1.03);
+    -webkit-animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
